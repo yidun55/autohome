@@ -22,27 +22,27 @@ class AatoHome(Spider):
     start_urls = ['http://www.autohome.com.cn/a00/']
     use_phantomjs = True
     writeInFile = "E:/DLdata/auto.txt"
-    download_delay = 10
+    download_delay = 3
 
     def __init__(self):
         self.xpathSen = xpath_sentence()  #取含有xpath语句的字典
 
-    def set_crawler(self,crawler):
-        super(AatoHome, self).set_crawler(crawler)
-        self.bind_signal()
+    # def set_crawler(self,crawler):
+    #     super(AatoHome, self).set_crawler(crawler)
+    #     self.bind_signal()
 
 
-    def bind_signal(self):
-        self.crawler.signals.connect(self.open_file, \
-            signal=signals.spider_opened)  #爬虫开启时，打开文件
-        self.crawler.signals.connect(self.close_file, \
-            signal=signals.spider_closed)  #爬虫关闭时，关闭文件
+    # def bind_signal(self):
+    #     self.crawler.signals.connect(self.open_file, \
+    #         signal=signals.spider_opened)  #爬虫开启时，打开文件
+    #     self.crawler.signals.connect(self.close_file, \
+    #         signal=signals.spider_closed)  #爬虫关闭时，关闭文件
 
-    def open_file(self):
-        self.file_handler = open(self.writeInFile, "a")
+    # def open_file(self):
+    #     self.file_handler = open(self.writeInFile, "a")
 
-    def close_file(self):
-        self.file_handler.close()
+    # def close_file(self):
+    #     self.file_handler.close()
 
     def parse(self, response):
         """
@@ -57,7 +57,7 @@ class AatoHome(Spider):
         urls = ['http://www.autohome.com.cn'+url for url in urls]
         name = name_caricon + name_caricon_suv
         its = zip(urls, name)   #its == items
-        for it in its[0:1]:
+        for it in its:
             yield Request(it[0], dont_filter=True,\
                 callback=self.extract_id,meta={"name":it[1]})
 
@@ -68,7 +68,7 @@ class AatoHome(Spider):
         sel = Selector(text=response.body.decode("utf-8"))
         auto_ids = sel.xpath(self.xpathSen['auto_ids']).extract()   #汽车的id是唯一的
         conf_url = 'http://car.autohome.com.cn/config/series/%s.html'
-        for auto_id in auto_ids[0:10]:
+        for auto_id in auto_ids:
             url = conf_url %str(auto_id[1:])
             yield Request(url, callback=self.detail,\
              dont_filter=True,meta=response.meta)
@@ -100,7 +100,7 @@ class AatoHome(Spider):
                 try:
                     conf_info.append(tmp[0])
                 except Exception, e:
-                    conf_info.append("")
+                    conf_info.append("-")
                     log.msg("error info=%s conf_info=%s"%(e, \
                         "\001".join(conf_info)), level=log.ERROR)
             
