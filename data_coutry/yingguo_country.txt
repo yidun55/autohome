@@ -1,0 +1,86 @@
+Rapide|s923
+拉共达Taraf|s884
+V8 Vantage|s385
+V12 Vantage|s822
+阿斯顿·马丁DB9|s266
+Vanquish|s386
+Cygnet|s2075
+Virage|s2275
+Vulcan|s3730
+阿斯顿·马丁DB5|s3004
+阿斯顿·马丁DBX|s3742
+V12 Zagato|s2846
+阿斯顿·马丁DBS|s582
+慕尚|s901
+飞驰|s3014
+欧陆|s305
+Bentayga|s2685
+EXP 10 Speed 6|s3739
+Grand Convertible|s3668
+雅致|s306
+捷豹XE|s3312
+捷豹XF|s589
+捷豹XJ|s178
+捷豹F-TYPE|s2903
+捷豹F-PACE|s3209
+捷豹C-X16|s2414
+捷豹C-X75|s2217
+捷豹E-Type|s2369
+捷豹XK|s456
+捷豹X-Type|s328
+捷豹S-Type|s258
+幻影|s265
+古思特|s836
+魅影|s3015
+揽胜极光|s3521
+神行者2|s77
+发现神行(进口)|s3565
+第四代发现|s802
+揽胜运动版|s850
+揽胜|s69
+揽胜极光(进口)|s754
+路虎DC100|s2410
+卫士|s256
+发现 Vision|s3435
+神行者|s3177
+第三代发现|s72
+Elise|s272
+Evora|s681
+Exige|s891
+MG3|s2147
+MG5|s532
+MG6|s835
+锐行|s3547
+锐腾|s3065
+ICON|s2758
+MG3SW|s555
+MG7|s531
+MGTF|s533
+MINI|s209
+MINI ROADSTER|s930
+MINI CLUBMAN|s749
+MINI COUNTRYMAN|s750
+MINI PACEMAN|s2241
+MINI COUPE|s904
+MINI ROCKETMAN|s2276
+MINI CLUBVAN|s2676
+MINI Superleggera Vision|s3516
+MINI JCW|s3178
+MINI JCW CLUBMAN|s3179
+MINI JCW COUNTRYMAN|s3181
+MINI JCW PACEMAN|s3182
+MINI JCW COUPE|s3180
+迈凯伦P1|s2902
+迈凯伦540C|s3809
+迈凯伦570S|s3767
+迈凯伦625C|s3620
+迈凯伦650S|s3382
+迈凯伦675LT|s3733
+迈凯伦12C|s2293
+3 Wheeler|s3491
+摩根Aero|s2835
+摩根Aero 8|s3736
+摩根Plus 8|s2836
+Noble M600|s2377
+沃克斯豪尔Adam|s2858
+沃克斯豪尔Corsa|s2670

@@ -1,0 +1,232 @@
+奥迪A3|s3170
+奥迪A4L|s692
+奥迪A6L|s18
+奥迪Q3|s2951
+奥迪Q5|s812
+奥迪A4|s19
+奥迪A6|s509
+奥迪A1|s650
+奥迪A3(进口)|s370
+奥迪S3|s2730
+奥迪A4(进口)|s471
+奥迪A5|s538
+奥迪S5|s2734
+奥迪A6(进口)|s472
+奥迪S6|s2736
+奥迪A7|s740
+奥迪S7|s2738
+奥迪A8|s146
+奥迪S8|s2739
+奥迪Q3(进口)|s2264
+奥迪Q5(进口)|s593
+奥迪SQ5|s2841
+奥迪Q7|s412
+奥迪TT|s148
+奥迪TTS|s2740
+奥迪R8|s511
+奥迪A2|s2415
+奥迪S1|s3276
+奥迪e-tron|s926
+奥迪S4|s2732
+Prologue|s3669
+allroad|s3350
+Crosslane Coupe|s2908
+奥迪TT offroad|s3479
+Nanuk|s3210
+quattro|s2218
+奥迪R18|s2832
+奥迪RS 5|s2735
+奥迪RS 7|s2994
+奥迪RS 3|s2731
+奥迪RS 4|s2733
+奥迪RS 6|s2737
+奥迪RS Q3|s2760
+奥迪TT RS|s2741
+巴博斯 CLS级|s2447
+巴博斯 S级|s2444
+巴博斯 M级|s2575
+巴博斯 SLK级|s2446
+巴博斯 smart fortwo|s2683
+巴博斯 E级|s2461
+巴博斯 G级|s2809
+巴博斯 GL级|s2947
+巴博斯 SLS级|s2448
+巴博斯 SL级|s2460
+宝马3系|s66
+宝马5系|s65
+宝马X1|s2561
+宝马i3|s2388
+宝马1系|s373
+宝马2系运动旅行车|s3302
+宝马3系(进口)|s317
+宝马3系GT|s2963
+宝马4系|s2968
+宝马5系(进口)|s202
+宝马5系GT|s2847
+宝马6系|s270
+宝马7系|s153
+宝马X3|s271
+宝马X4|s3053
+宝马X5|s159
+宝马X6|s587
+宝马2系多功能旅行车|s3726
+宝马2系|s3230
+宝马i8|s2387
+宝马Z4|s161
+Vision Future Luxury|s3471
+宝马X1(进口)|s675
+3.0 CSL Hommage|s3843
+Gran Lusso|s3146
+Zagato Coupe|s2831
+宝马M3|s2196
+宝马M4|s3189
+宝马M5|s2726
+宝马M6|s2727
+宝马X5 M|s2728
+宝马X6 M|s2729
+宝马1系M|s2725
+Panamera|s703
+Macan|s2838
+卡宴|s172
+Boxster|s168
+Cayman|s415
+保时捷911|s162
+保时捷918|s2073
+保时捷919|s3401
+奔驰C级|s588
+奔驰E级|s197
+奔驰GLA级|s3248
+奔驰GLK级|s2562
+威霆|s2084
+唯雅诺|s2034
+凌特|s2564
+奔驰A级|s52
+奔驰B级|s398
+奔驰CLA级|s2966
+奔驰C级(进口)|s56
+奔驰E级(进口)|s450
+奔驰CLS级|s365
+奔驰S级|s59
+奔驰M级|s57
+奔驰G级|s60
+奔驰GL级|s467
+奔驰R级|s469
+奔驰SLK级|s267
+奔驰SL级|s237
+奔驰GLA级(进口)|s3079
+奔驰F800|s2065
+奔驰F 015|s3700
+Ener-G-Force|s2950
+奔驰GLC级(进口)|s3339
+Coupe SUV|s3441
+奔驰GLE级|s3683
+Sprinter|s2005
+奔驰V级(进口)|s3364
+威霆(进口)|s192
+奔驰CSC级|s2762
+奔驰F125|s2424
+奔驰GLK级(进口)|s595
+唯雅诺(进口)|s300
+奔驰CLK级|s235
+奔驰CL级|s683
+奔驰A级AMG|s2842
+奔驰CLA级AMG|s2967
+奔驰C级AMG|s2717
+奔驰CLS级AMG|s2719
+奔驰S级AMG|s2197
+奔驰GLA级AMG|s3264
+奔驰M级AMG|s2722
+奔驰G级AMG|s2723
+奔驰GL级AMG|s2833
+奔驰SL级AMG|s2720
+AMG GT|s3451
+奔驰SLS级AMG|s914
+奔驰E级AMG|s2718
+奔驰GLE级AMG|s3704
+奔驰SLK级AMG|s2721
+Vision|s3246
+迈巴赫S级|s3665
+POLO|s145
+桑塔纳·尚纳|s2922
+朗行|s3103
+朗逸|s614
+朗境|s3197
+凌渡|s3457
+桑塔纳·浩纳|s3805
+帕萨特|s528
+途观|s874
+途安|s333
+高尔|s144
+Passat领驭|s826
+桑塔纳经典|s149
+桑塔纳志俊|s207
+捷达|s16
+宝来|s633
+高尔夫|s871
+速腾|s442
+迈腾|s496
+一汽-大众CC|s905
+宝来/宝来经典|s15
+开迪|s360
+大众up!|s780
+甲壳虫|s210
+高尔夫(进口)|s372
+迈腾(进口)|s539
+辉腾|s224
+Tiguan|s557
+途锐|s82
+夏朗|s86
+迈特威|s631
+凯路威|s3416
+尚酷|s669
+大众Eos|s430
+大众Fox|s422
+Nils|s2435
+POLO(海外)|s782
+大众XL1|s925
+高尔(海外)|s680
+Jetta|s906
+Passat|s368
+Sport Coupe|s3732
+大众CC|s700
+C Coupe|s3801
+Buggy Up|s2427
+Taigun|s2917
+T-ROC|s3398
+CrossBlue|s2993
+Cross Coupe|s2584
+Bulli|s2279
+e-Co-Motion|s3027
+开迪(海外)|s2185
+途安(海外)|s512
+大众XL|s3622
+Amarok|s2380
+Tristar|s3616
+Apollo|s2082
+卡尔森 C25|s2612
+卡尔森 S级|s2611
+卡尔森 GL级|s2610
+迈巴赫|s389
+欧宝Adam|s2859
+Karl|s3679
+欧宝Corsa|s753
+雅特|s348
+英速亚|s653
+麦瑞纳|s2021
+Monza|s3193
+欧宝Cascada|s2916
+威达|s182
+安德拉|s670
+赛飞利|s381
+如虎 CTR 3|s2970
+smart fortwo|s620
+smart forjeremy|s2958
+smart forfour|s1004
+smart forstars|s2898
+smart fourjoy|s3205
+smart for-us|s2638
+威兹曼GT|s725
+威兹曼Roadster|s959
+亚琛施纳泽 7系|s2148
+亚琛施纳泽 X5|s2097
+亚琛施纳泽 X6|s2098
