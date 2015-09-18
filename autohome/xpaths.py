@@ -37,4 +37,18 @@ def xpath_sentence():
     "DGLFXP":"//tr[@id='tr_539']/td[1]/div/text()"   #多功能方向盘
     }
 
-
+def xpath_repair():
+    """
+    repair_autohome的xpath语句
+    """
+    return {
+    "type_auto":"//div[@class='subnav-title-name']/a/text()", #车型
+    "brand":"//tr[@id='tr_0']/td[1]/div/text()",  #厂商--品牌
+    "level":"//tr[@id='tr_1']/td[1]/div/text()",  #汽车级别分类(微型，SUV等)
+    "BSX":"//tr[@id='tr_3']/td[1]/div/text()",  #变速箱分类
+    "CSJG":"//tr[@id='tr_5']/td[1]/div/text()",  #车身结构
+    "ZWGS":"//tr[@id='tr_19']/td[1]/div/text()",  #坐位个数
+    "PL":"//tr[@id='tr_37']/td[1]/div/text()",  #排量
+    "RLXS":"//tr[@id='tr_52']/td[1]/div/text()",  #燃料形式
+    "QDFS":"//tr[@id='tr_27']/td[1]/div/text()",   #驱动方式
+    }

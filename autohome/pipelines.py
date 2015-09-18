@@ -8,7 +8,7 @@
 
 class AutohomePipeline(object):
     def process_item(self, item, spider):
-        writeInFile = "E:/DLdata/auto.txt"
+        writeInFile = "E:/DLdata/repair_auto.txt"
         f = open(writeInFile,"a")
         # spider.file_handler.write(item['content'])
         f.write(item['content'])
