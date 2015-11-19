@@ -17,8 +17,10 @@ DEFAULT_ITEM_CLASS = 'autohome.items.AutohomeItem'
 ITEM_PIPELINES=['autohome.pipelines.AutohomePipeline']
 
 DOWNLOAD_HANDLERS = {
-    'phantomjs-http': 'autohome.downloader.handlers.phantomjs.PhantomJSDownloadHandler'
-  , 'phantomjs-https': 'autohome.downloader.handlers.phantomjs.PhantomJSDownloadHandler'
+    'http': 'scrapy.core.downloader.handlers.http.HttpDownloadHandler',
+    'https': 'scrapy.core.downloader.handlers.http.HttpDownloadHandler',
+    'phantomjs-http': 'autohome.downloader.handlers.phantomjs.PhantomJSDownloadHandler',
+    'phantomjs-https': 'autohome.downloader.handlers.phantomjs.PhantomJSDownloadHandler'
 }
 
 SPIDER_MIDDLEWARES = {
