@@ -9,7 +9,7 @@ from scrapy import signals
 from scrapy.utils.request import request_fingerprint
 from autohome.items import *
 import re
-# import redis
+import redis
 
 import sys
 reload(sys)
@@ -64,7 +64,7 @@ class JudicialOpinions(Spider):
         """
         pages = 3056
         # print response.body
-        for i in range(3056)[5:6]:
+        for i in xrange(3056):
             url = self.model_urls %str(i)
             yield Request(url, callback=self.urls,\
                 dont_filter=True, meta={"not_phantomjs":'yes'})
@@ -89,11 +89,7 @@ class JudicialOpinions(Spider):
                     tag = False
             items[key] = fragment
         try:
-            i = 0
             for url, fragment in items.iteritems():
-                if i>5:
-                    break
-                i += 1
                 url = "http://rmfygg.court.gov.cn" + url
                 # print url, "url$$$$$$$$$$$$$$$$$$$$$$$$$$$"
                 # yield Request(url, callback=self.detail,\
@@ -103,7 +99,7 @@ class JudicialOpinions(Spider):
                 if isexist:
                     #如果redis set ppai_dup_redis没有则插入并返回1，否则
                     #返回0
-                    yield Request(url, callback=detail,\
+                    yield Request(url, callback=self.detail,\
                         dont_filter=True, meta={"values":fragment})
                 else:
                     pass
