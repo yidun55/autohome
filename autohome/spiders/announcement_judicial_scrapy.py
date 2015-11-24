@@ -80,14 +80,14 @@ class JudicialOpinions(Spider):
         items = {}
         for bloc in blocks:
             tag = True
-            fragment = ""
+            fragment = []
             key = ""
             for small in bloc.xpath("./td")[0:4]:
-                fragment = fragment + "\001" + small.xpath("string(.)").extract()[0]
+                fragment.append(small.xpath("string(.)").extract()[0])
                 if tag == True:
                     key = small.xpath("./a/@href").extract()[0]
                     tag = False
-            items[key] = fragment
+            items[key] = "\001".join(fragment)
         try:
             for url, fragment in items.iteritems():
                 url = "http://rmfygg.court.gov.cn" + url
